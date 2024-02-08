@@ -1,0 +1,209 @@
+
+
+#title
+{
+    /* background-color: #ADE792; */
+    background-image: url("bg.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.di
+{
+    background-image: url("bg.png");
+    height: 350px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 3% 10%;
+}
+
+.navbar
+{
+    padding-bottom: 1rem; 
+}
+.nav-item
+{
+    padding: 0 18px;
+}
+.nav-link
+{
+    font-size: 1.2rem;
+    font-family: 'Montserrat-lite', sans-serif;
+
+}
+.input-group
+{
+    padding:5% 0 5% 0;
+}
+
+.navbar-brand
+{
+    font-size: 2.5rem;
+}
+ 
+.big-heading
+{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 3rem;
+    /* line-height: 1.5; */
+    color: white;
+}
+.title-image
+{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 20%;
+}
+
+@media (max-width:1028px) 
+{
+    .title-image
+    {
+        position: static;
+        transform: rotate(0);
+    }
+    #title
+    {
+        text-align: center;
+    }
+}
+
+
+.container-fluid
+{
+    padding: 3% 10% 8%;
+}
+
+ 
+
+.feature-box
+{
+    text-align: center;
+    padding: 3%;
+}
+#features
+{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+}
+.icon-color
+{
+    color:#6ECCAF;
+    margin-bottom: 1rem;
+}
+.icon-color:hover
+{
+    color: #285430;
+}
+
+
+
+#download
+{
+    background-color: #285430;
+    padding: 7% 7% 1% 7%;
+}
+
+.download-text
+{
+    text-align: center;
+    font-size: 20px;
+    color:gray;
+    /* padding-left: 10%; */
+}
+
+.download-button
+{
+
+    margin: 4%;
+    
+}
+#testimonials
+{
+    text-align: center;
+    color: black;
+    
+}
+
+.testimonial-text
+{
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #285430;
+
+}
+
+
+.carousel-item
+{
+    padding: 7% 15%;
+
+}
+.f1
+{
+    padding: 5% 7% 0% 7%;
+    /* background-color: red; */
+}
+
+
+.f2
+{
+    padding: 5% 7%;
+    background-color: #6ECCAF;
+}
+
+
+@media (max-width:1028px) 
+{
+    .phone
+    {
+        position: static;
+    }
+    #download
+    {
+        text-align: center;
+    }
+}
+
+
+
+#today-special
+{
+    background-color: white;
+    padding: 7% 15%;
+
+}
+
+#footer
+{
+    background-color: #285430;
+    padding: 7% 15%;
+    text-align: center;
+
+
+}
+
+.footer-text
+{
+    color:white;
+    padding: 5%;
+}
+.social-icon
+{
+    margin: 0 3% ;
+    color: white;
+
+} 
+.social-icon:hover
+{
+    color:#EAE7B1;
+}
+.special-heading
+{
+    font-size: 3rem;
+    padding-bottom: 5%;
+}
